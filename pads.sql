@@ -1,3 +1,5 @@
+-- https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true
+
 SELECT
     concat(Name, concat('(',substring(Occupation, 1,1) ,')'))
     as c FROM OCCUPATIONS
